@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mixed Selector</title>
+    <style>
+      /* p {
+        color: rgb(243, 9, 9);
+      } */
+      #fifth {
+        font-size: 25px;
+      }
+      .yellow {
+        background: yellow;
+      }
+
+      .bold {
+        font-weight: 700;
+      }
+      #fifth,
+      li {
+        font-size: 26px;
+        /* background-color: aqua; */
+      }
+      /* * {
+        margin: 0;
+      } */
+      input [type="password"] {
+        /* font-size: 30px; */
+        color: red;
+      }
+      .css {
+        color: aqua;
+      }
+      .blog {
+        background-color: aquamarine;
+        border: 5px solid tomato;
+        border-radius: 10px;
+        margin: 10px;
+        text-align: justify;
+        padding: 20px 10px 20px 20px;
+      }
+    </style>
+    <link rel="stylesheet" href="styles/blog.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h2>Welcome to my External website</h2>
+    </header>
+    <h3 class="hide">CSS Box Model</h3>
+    <ol>
+      <li>content</li>
+      <li style="color: red; text-decoration: underline">border</li>
+      <li>margin</li>
+      <li>padding</li>
+    </ol>
+
+    <div class="blog">
+      <h3>My Blog</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quisquam, cumque itaque laborum recusandae ratione? Exercitationem fuga
+        ratione itaque officia magni, veniam maiores at molestiae sit perspiciatis! Mollitia, voluptate
+        <span class="incident">exercitationem</span> exercitationem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit quidem id fugiat
+        totam adipisci harum voluptates dolorem fuga, maxime ipsam, aliquid culpa ipsa, iusto numquam sequi autem. Ad, consectetur ullam?
+      </p>
+    </div>
+    <h3>Explore Mixed Selector</h3>
+    <p>My first <span class="css">line CSS</span> line CSS</p>
+    <p class="yellow bold">My second line CSS</p>
+    <p>My third line CSS</p>
+    <p class="yellow">My fourth line CSS</p>
+    <p id="fifth">My fifth line CSS</p>
+    <p class="yellow">My sixth line CSS</p>
+
+    <ol>
+      <li>Element Selector</li>
+      <li class="bold yellow">Id selector</li>
+      <li>Class selector</li>
+      <li>Universal selector</li>
+    </ol>
+    <div class="blog">
+      <h3>My Blog</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit quidem id fugiat totam adipisci harum voluptates dolorem fuga, maxime ipsam,
+        aliquid culpa ipsa, iusto numquam sequi autem. Ad, consectetur ullam?
+      </p>
+    </div>
+    <h3>CSS box model</h3>
+    <ol>
+      <li>content</li>
+      <li>border</li>
+      <li>margin</li>
+      <li>padding</li>
+    </ol>
+
+    <form action="">
+      <input type="text" name="" id="" />
+      <br />
+      <input type="password" name="" id="" />
+    </form>
+  </body>
+</html>
